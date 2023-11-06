@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.registration-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+.registration-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.registration-form label{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.registration-form #register{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: wheat;
+}
+.registration-form #register:hover{
+    background-color: whitesmoke;
+    color:red;
+    text-decoration: underline;
+}
